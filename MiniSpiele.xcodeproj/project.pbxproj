@@ -5,32 +5,49 @@
 	};
 	objectVersion = 56;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		069D7BF85D6A7F4DA03E3156 /* Games/Memory/MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F95A1F1C92B324B083DB8DF /* Games/Memory/MemoryGameView.swift */; };
+		13EE82D0EE83C53D70FAF901 /* Games/Word/WordGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7C2FC77CF9EB8A9BF600C /* Games/Word/WordGameView.swift */; };
+		3085DA0A7AE591F3136EBFF3 /* Models/GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E055465CC4F6582D35819B /* Models/GameData.swift */; };
+		36EF1E7B034DA1132A15F3F8 /* Games/RPS/RPSGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F05D6F297ED5452AF908D /* Games/RPS/RPSGameView.swift */; };
 		46CF8A20D3E90A919B8CA705 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE630D19A2D8FF8A11421898 /* ContentView.swift */; };
-		851EECEDA7DE82B7607C4ECE /* DiceGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B3F1253E58BEF936EEA65 /* DiceGameView.swift */; };
-		C675D0E1C5EDBA2D7C907F12 /* FlickGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE2824268E6822595860B0 /* FlickGameView.swift */; };
-		069D7BF85D6A7F4DA03E3156 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F95A1F1C92B324B083DB8DF /* MemoryGameView.swift */; };
-		36EF1E7B034DA1132A15F3F8 /* RPSGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F05D6F297ED5452AF908D /* RPSGameView.swift */; };
-		D3BF70005D5C8E1F65FFE421 /* ReactionGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32333DCE9EA23B67590694D5 /* ReactionGameView.swift */; };
-		13EE82D0EE83C53D70FAF901 /* WordGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7C2FC77CF9EB8A9BF600C /* WordGameView.swift */; };
+		851EECEDA7DE82B7607C4ECE /* Games/Dice/DiceGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B3F1253E58BEF936EEA65 /* Games/Dice/DiceGameView.swift */; };
 		8FEC33D10D3765F111896236 /* MiniSpieleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99917EFCB992E45D5960F30 /* MiniSpieleApp.swift */; };
-		3085DA0A7AE591F3136EBFF3 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E055465CC4F6582D35819B /* GameData.swift */; };
-		DE630D19A2D8FF8A11421898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
-		AB9B3F1253E58BEF936EEA65 /* DiceGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games/Dice/DiceGameView.swift"; sourceTree = "<group>"; };
-		FFAE2824268E6822595860B0 /* FlickGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games/Flick/FlickGameView.swift"; sourceTree = "<group>"; };
-		9F95A1F1C92B324B083DB8DF /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games/Memory/MemoryGameView.swift"; sourceTree = "<group>"; };
-		833F05D6F297ED5452AF908D /* RPSGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games/RPS/RPSGameView.swift"; sourceTree = "<group>"; };
-		32333DCE9EA23B67590694D5 /* ReactionGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games/Reaction/ReactionGameView.swift"; sourceTree = "<group>"; };
-		D5D7C2FC77CF9EB8A9BF600C /* WordGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games/Word/WordGameView.swift"; sourceTree = "<group>"; };
-		041509C7F11E7DE0ADB6F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
-		D99917EFCB992E45D5960F30 /* MiniSpieleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiniSpieleApp.swift"; sourceTree = "<group>"; };
-		B4E055465CC4F6582D35819B /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/GameData.swift"; sourceTree = "<group>"; };
+		C675D0E1C5EDBA2D7C907F12 /* Games/Flick/FlickGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE2824268E6822595860B0 /* Games/Flick/FlickGameView.swift */; };
+		D3BF70005D5C8E1F65FFE421 /* Games/Reaction/ReactionGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32333DCE9EA23B67590694D5 /* Games/Reaction/ReactionGameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041509C7F11E7DE0ADB6F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32333DCE9EA23B67590694D5 /* Games/Reaction/ReactionGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games/Reaction/ReactionGameView.swift; sourceTree = "<group>"; };
 		5E6596BE027DFA0E2B20EDE6 /* MiniSpiele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniSpiele.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A97C63750F7AF300E647B2E0 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		833F05D6F297ED5452AF908D /* Games/RPS/RPSGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games/RPS/RPSGameView.swift; sourceTree = "<group>"; };
+		9F95A1F1C92B324B083DB8DF /* Games/Memory/MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games/Memory/MemoryGameView.swift; sourceTree = "<group>"; };
+		AB9B3F1253E58BEF936EEA65 /* Games/Dice/DiceGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games/Dice/DiceGameView.swift; sourceTree = "<group>"; };
+		B4E055465CC4F6582D35819B /* Models/GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/GameData.swift; sourceTree = "<group>"; };
+		D5D7C2FC77CF9EB8A9BF600C /* Games/Word/WordGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games/Word/WordGameView.swift; sourceTree = "<group>"; };
+		D99917EFCB992E45D5960F30 /* MiniSpieleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniSpieleApp.swift; sourceTree = "<group>"; };
+		DE630D19A2D8FF8A11421898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFAE2824268E6822595860B0 /* Games/Flick/FlickGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games/Flick/FlickGameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97C63750F7AF300E647B2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
 		04835B051A9BD45D2BA64392 = {
 			isa = PBXGroup;
 			children = (
 				5F45DFB0C1E84A064522B20B /* MiniSpiele */,
-				5E6596BE027DFA0E2B20EDE6 /* Products */,
+				5E6596BE027DFA0E2B20EDE6 /* MiniSpiele.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -38,19 +55,22 @@
 			isa = PBXGroup;
 			children = (
 				DE630D19A2D8FF8A11421898 /* ContentView.swift */,
-				AB9B3F1253E58BEF936EEA65 /* DiceGameView.swift */,
-				FFAE2824268E6822595860B0 /* FlickGameView.swift */,
-				9F95A1F1C92B324B083DB8DF /* MemoryGameView.swift */,
-				833F05D6F297ED5452AF908D /* RPSGameView.swift */,
-				32333DCE9EA23B67590694D5 /* ReactionGameView.swift */,
-				D5D7C2FC77CF9EB8A9BF600C /* WordGameView.swift */,
+				AB9B3F1253E58BEF936EEA65 /* Games/Dice/DiceGameView.swift */,
+				FFAE2824268E6822595860B0 /* Games/Flick/FlickGameView.swift */,
+				9F95A1F1C92B324B083DB8DF /* Games/Memory/MemoryGameView.swift */,
+				833F05D6F297ED5452AF908D /* Games/RPS/RPSGameView.swift */,
+				32333DCE9EA23B67590694D5 /* Games/Reaction/ReactionGameView.swift */,
+				D5D7C2FC77CF9EB8A9BF600C /* Games/Word/WordGameView.swift */,
 				041509C7F11E7DE0ADB6F642 /* Info.plist */,
 				D99917EFCB992E45D5960F30 /* MiniSpieleApp.swift */,
-				B4E055465CC4F6582D35819B /* GameData.swift */,
+				B4E055465CC4F6582D35819B /* Models/GameData.swift */,
 			);
 			path = MiniSpiele;
 			sourceTree = "<group>";
 		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
 		864500B313E8D04EA5D99CED /* MiniSpiele */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 891D51E75DC4362FAAEA24DF /* Build configuration list for PBXNativeTarget "MiniSpiele" */;
@@ -67,6 +87,9 @@
 			productReference = 5E6596BE027DFA0E2B20EDE6 /* MiniSpiele.app */;
 			productType = "com.apple.product-type.application";
 		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
 		E4F1A2B3C4D5E6F7A8B9C0D1E2F3A4B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
@@ -96,22 +119,28 @@
 				864500B313E8D04EA5D99CED /* MiniSpiele */,
 			);
 		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
 		253647D4BD4FBE32E1302F8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				46CF8A20D3E90A919B8CA705 /* ContentView.swift in Sources */,
-				851EECEDA7DE82B7607C4ECE /* DiceGameView.swift in Sources */,
-				C675D0E1C5EDBA2D7C907F12 /* FlickGameView.swift in Sources */,
-				069D7BF85D6A7F4DA03E3156 /* MemoryGameView.swift in Sources */,
-				36EF1E7B034DA1132A15F3F8 /* RPSGameView.swift in Sources */,
-				D3BF70005D5C8E1F65FFE421 /* ReactionGameView.swift in Sources */,
-				13EE82D0EE83C53D70FAF901 /* WordGameView.swift in Sources */,
+				851EECEDA7DE82B7607C4ECE /* Games/Dice/DiceGameView.swift in Sources */,
+				C675D0E1C5EDBA2D7C907F12 /* Games/Flick/FlickGameView.swift in Sources */,
+				069D7BF85D6A7F4DA03E3156 /* Games/Memory/MemoryGameView.swift in Sources */,
+				36EF1E7B034DA1132A15F3F8 /* Games/RPS/RPSGameView.swift in Sources */,
+				D3BF70005D5C8E1F65FFE421 /* Games/Reaction/ReactionGameView.swift in Sources */,
+				13EE82D0EE83C53D70FAF901 /* Games/Word/WordGameView.swift in Sources */,
 				8FEC33D10D3765F111896236 /* MiniSpieleApp.swift in Sources */,
-				3085DA0A7AE591F3136EBFF3 /* GameData.swift in Sources */,
+				3085DA0A7AE591F3136EBFF3 /* Models/GameData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
 		49A571FA2DB09CBCEC0C8021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -123,30 +152,33 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = "Manual";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf";
-				DEVELOPMENT_TEAM = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DF37B9B3J8;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
-				INFOPLIST_FILE = "MiniSpiele/Info.plist";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniSpiele/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MTL_ENABLE_DEBUG_INFO = "INCLUDE_SOURCE";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.henry.minispiele";
+				PRODUCT_BUNDLE_IDENTIFIER = de.henry.minispiele;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = "iphoneos";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -164,32 +196,35 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = "Manual";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DF37B9B3J8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = "s";
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
-				INFOPLIST_FILE = "MiniSpiele/Info.plist";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniSpiele/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.henry.minispiele";
+				PRODUCT_BUNDLE_IDENTIFIER = de.henry.minispiele;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = "iphoneos";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
-				SWIFT_COMPILATION_MODE = "wholemodule";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -208,30 +243,33 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = "Manual";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf";
-				DEVELOPMENT_TEAM = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DF37B9B3J8;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
-				INFOPLIST_FILE = "MiniSpiele/Info.plist";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniSpiele/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MTL_ENABLE_DEBUG_INFO = "INCLUDE_SOURCE";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.henry.minispiele";
+				PRODUCT_BUNDLE_IDENTIFIER = de.henry.minispiele;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = "iphoneos";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -249,38 +287,53 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = "Manual";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DF37B9B3J8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = "s";
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
-				INFOPLIST_FILE = "MiniSpiele/Info.plist";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniSpiele/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.henry.minispiele";
+				PRODUCT_BUNDLE_IDENTIFIER = de.henry.minispiele;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = "iphoneos";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
-				SWIFT_COMPILATION_MODE = "wholemodule";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891D51E75DC4362FAAEA24DF /* Build configuration list for PBXNativeTarget "MiniSpiele" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FE2587C3550B22A6DB7F0F /* Debug */,
+				E466BAEAF9CE0CF03A836F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E461141AF200804539949DD7 /* Build configuration list for PBXProject "MiniSpiele" */ = {
 			isa = XCConfigurationList;
@@ -291,15 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		891D51E75DC4362FAAEA24DF /* Build configuration list for PBXNativeTarget "MiniSpiele" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98FE2587C3550B22A6DB7F0F /* Debug */,
-				E466BAEAF9CE0CF03A836F5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+/* End XCConfigurationList section */
 	};
 	rootObject = E4F1A2B3C4D5E6F7A8B9C0D1E2F3A4B5 /* Project object */;
 }
