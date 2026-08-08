@@ -55,6 +55,7 @@ struct ContentView: View {
                                 NavigationLink(value: game.id) {
                                     GameCard(game: game)
                                 }
+                                .buttonStyle(ScaleButtonStyle())
                             }
                         }
                         .padding(.horizontal, 16)
@@ -77,10 +78,18 @@ struct ContentView: View {
     }
 }
 
+// MARK: - Button Style with scale animation
+struct ScaleButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+            .animation(.spring(response: 0.3, dampingFraction: 0.6), value: configuration.isPressed)
+    }
+}
+
 // MARK: - Game Card
 struct GameCard: View {
     let game: GameInfo
-    @State private var isPressed = false
 
     var body: some View {
         VStack(spacing: 12) {
@@ -111,16 +120,5 @@ struct GameCard: View {
                                      endPoint: .bottomTrailing))
                 .shadow(color: game.gradient[0].opacity(0.4), radius: 10, y: 5)
         )
-        .scaleEffect(isPressed ? 0.95 : 1.0)
-        .onTapGesture {
-            withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
-                isPressed = true
-            }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
-                    isPressed = false
-                }
-            }
-        }
     }
 }
